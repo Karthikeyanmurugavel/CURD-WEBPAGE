@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*navbarr starting*/
+
+
+
+.navContainer{
+    height: 75px;
+    background-color: rgb(6, 8, 6);
+    display: flex;
+    
+
+}
+
+.logoblock{
+    height: inherit;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration-color: rgb(32, 167, 167);
+    text-decoration: solid;
+}
+
+.listblock{
+    height: inherit;
+    width: 75%;
+}
+
+.listblock ul{
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.listblock ul a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 19px;
+    color: rgb(6, 159, 159);
+    text-decoration: underline;
+}
+
+/* view all*/
+
+
+.list{
+    display: flex;
+    gap: 20px;
+}
+
+.editbtn{
+    background-color: green;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    color: aliceblue;
+}
+
+.deletebtn{
+    background-color: red;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    color: aliceblue;
+}
+
+.viewbtn{
+    background-color: rgb(89, 105, 242);
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    color: aliceblue;
+}
+
+.tablecontainer{
+    border: 2px solid rgb(27, 153, 151);
+    height: 500px;
+    width: 700px;
+    margin: 0;
+    margin-top: 40px;
+    margin-left: 395px;
+    text-align: center;
+    background-color: rgb(221, 189, 180);
+}
+
+th,td,tr{
+    border: 1px solid rgb(185, 7, 7);
+}
+
+.head1{
+    font-size: 27px;
+    text-align: center;
+    text-decoration: underline;
+    padding: 40px;
+}
+
+.singlescontainer{
+    height: 300px;
+    width: 400px;
+    background-color: rgb(206, 178, 141);
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 5px rgb(134, 46, 134);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.singlescontainer div{
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.singlescontainer div button{
+    padding: 10px 20px;
+    background-color: rgb(37, 17, 183);
+    color: rgb(214, 245, 13);
+    border: none;
+    border-radius: 8px;
+}
+.head2{
+    font-size: 27px;
+    text-align: center;
+    text-decoration: underline;
+    padding: 40px;
+}
+
+.studenttn{
+    gap: 100px;
+    height: 300px;
+    width: 400px;
+    background-color: rgb(129, 81, 115);
+    border-radius: 8px;
+    color: white;
+    box-shadow: 2px 2px 2px 5px rgb(15, 50, 192);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.head4{
+    text-align: center;
+    text-decoration: underline;
+    line-height: 100px;
+    
+}
+
+.din{
+    
+    padding: 1px ;
+    border:10px;
+    border-radius: 10px;
+}
+
+.wen{
+    padding: 10px 20px; 
+}
+
+.ooo{
+    color: rgb(255, 106, 0);
+    background-color: rgb(36, 28, 28);
+    
+}
+
+.bur{
+    padding: 10px 80px;
+    text-decoration: underline;
+    background-color: rgb(118, 46, 18);
+    color: rgb(214, 245, 13);
+    border: none;
+    border-radius: 8px;
+}
+
+
+.nnn{
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    background-color: rgb(108, 108, 148);
+}
+
+.vvv{
+    gap: 100px;
+    height: 300px;
+    width: 400px;
+    background-color: rgb(129, 81, 115);
+    border-radius: 8px;
+    color: white;
+    box-shadow: 2px 2px 2px 5px rgb(15, 50, 192);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.jjj{
+    padding: 1px ;
+    border:10px;
+    border-radius: 10px;
+}
+
+.kkk{
+    padding: 10px 20px; 
+    border:10px;
+    border-radius: 10px;
+}
+
+.uuu{
+    padding: 10px 80px;
+    text-decoration: underline;
+    background-color: rgb(63, 214, 81);
+    color: rgb(40, 46, 5);
+    border: none;
+    border-radius: 100px;
+}
+
+.iii{
+    color: rgb(255, 106, 0);
+    background-color: rgb(36, 28, 28);
+}
+.dark{
+    background-color: black;
+    color: azure;
+}
+.bbb{
+    border: 20px solid black
+    ;
+}
